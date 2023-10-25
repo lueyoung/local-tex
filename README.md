@@ -26,7 +26,7 @@ http://127.0.0.1
 
 ### 2 Building the image
 
-If the above image is unavailable, you can build as follow:
+If the above image is unavailable, you can build as follows:
 
 ```bash
 docker build -t <your-image> .
@@ -34,14 +34,14 @@ docker build -t <your-image> .
 
 And then, replace `lowyard/local-tex` by your image in `docker-compose.yml`.  
 
-If you can not download `update-tlmgr-latest.sh` during your building, you can download this file from the link `http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh`, put the file into your project path, and build your image as follow:
+If you can not download `update-tlmgr-latest.sh` during your building, you can download this file from the link `http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh`, put the file into your project path, and build your image as follows:
 ```bash
 docker build -t lowyard/local-tex -f Dockerfile.copy .
 ```
 
 ### 3 For first time
 
-When using for the first time, there is no account to log in, you need to register an administrator account first, visit:
+When using for the first time, there is no account to log in, so you need to register an administrator account first. Visit:
 
 ```
 http://<your-ip>:<your-port>/launchpad
