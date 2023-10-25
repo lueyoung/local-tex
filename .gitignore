@@ -10,6 +10,7 @@
 nohup.out
 mongo_data
 *.tar
+update-tlmgr-latest.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
