@@ -35,16 +35,16 @@ docker build -t lowyard/local-tex -f Dockerfile.copy .
 
 ### 3 For first time
 
-首次使用时，并没有账号可以登录，需要首先注册一个管理员账户，访问：
+When using for the first time, there is no account to log in, you need to register an administrator account first, visit:
 
 ```
 http://<your-ip>:<your-port>/launchpad
 ```
 
-如：
+such as:
 
 ```
 http://127.0.0.1/launchpad
 ```
 
-注册管理员账户，用此账户登录即可。
+Register an administrator account and log in with this account.
