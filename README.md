@@ -1,10 +1,10 @@
-### How to use  
+## How to use  
 
-#### 0 Prerequisites
+### 0 Prerequisites
 
 Before using, you need to install Docker and docker-compose.
 
-#### 1 Running
+### 1 Running
 
 The defalut livetex image in this project is `lowyard/local-tex:latest`, and run the project:
 
@@ -12,13 +12,13 @@ The defalut livetex image in this project is `lowyard/local-tex:latest`, and run
 docker-compose up -d
 ```
 
-Then, you can visit the web tex on you browser:
+Then, you can visit the web tex on your browser:
 
 ```
 http://127.0.0.1
 ```
 
-#### 2 Building the image
+### 2 Building the image
 
 If the above image is unavailable, you can build as following:
 
