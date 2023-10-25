@@ -4,7 +4,7 @@ services:
         restart: always
         # Server Pro users:
         # image: quay.io/sharelatex/sharelatex-pro
-        image: localtex
+        image: lowyard/local-tex
         container_name: sharelatex
         depends_on:
             mongo:
