@@ -2,7 +2,7 @@
 
 ### 0 Prerequisites
 
-Before using, you need to install Docker and docker-compose.
+Before using, you need to install `docker` and `docker-compose`.
 
 ### 1 Running
 

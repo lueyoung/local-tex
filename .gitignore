@@ -9,6 +9,7 @@
 *.pkl.bak
 nohup.out
 mongo_data
+*.tar
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
