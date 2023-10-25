@@ -15,7 +15,7 @@ docker-compose up -d
 Then, you can visit the web tex on your browser:
 
 ```
-http://<your-ip>:<your-port>/launchpad
+http://<your-ip>:<your-port>
 ```
 
 such as:
